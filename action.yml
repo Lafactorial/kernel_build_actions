@@ -6,7 +6,7 @@ branding:
   color: 'blue'
 
 inputs:
-  kernel-url:
+  kernel-url:https://github.com/Lafactorial/kernel_xiaomi_sm6150.git
     required: true
   depth:
     required: false
@@ -22,13 +22,13 @@ inputs:
   vendor-dir:
     required: false
     default: vendor
-  kernel-branch:
-    required: false
+  kernel-branch: wip-ksu
+    required: true
     default: main
   vendor-branch:
     required: false
     default: main
-  config:
+  config: sweet_defconfig
     required: true
     default: defconfig
   arch:
